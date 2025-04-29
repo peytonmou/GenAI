@@ -8,6 +8,6 @@ Set API key:
 from kaggle_secrets import UserSecretsClient
 UserSecretsClient().set_secret("mysecret", "your_api_key")
 
-Access the Gradio interface at http://localhost:7860 to:
+Usage
 1. Upload PDFs
 2. Get AI generated summary, Q&A
